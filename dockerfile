@@ -8,6 +8,6 @@ ADD dist /var/www/html/
 
 
 
-CMD ["/usr/sbin/apache2ctl" "-DFOREGROUND"]
+CMD ["/usr/sbin/apachectl","-DFOREGROUND"]
 EXPOSE 80
 
